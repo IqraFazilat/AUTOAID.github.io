@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Auto Aid</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <!-- <a href="#"><img src="img/logo2.png" class="logo" alt=""  width="80px" height="40px" /></a> -->
+            <a href="#"><img src="img/logo1.png" class="logo" alt="Circular logo"  
+                style="width: 70px; height: 70px; border-radius: 50%; object-fit: cover;" /></a>
+            <div>
+              <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag">
+                  <a   href="cart.html" class="active"
+                    ><i class="far fa-shopping-bag" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+              </ul>
+            </div>
+      
+            <div id="mobile">
+              <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+              <i id="bar" class="fas fa-outdent"></i>
+            </div>
+          </section>
+      
+          <section id="page-header" class="cart-header">
+            <h2>#YourCart</h2>
+            <p>Review your items and proceed to checkout. We're here for all your auto needs!</p>
+          </section>
+        
+       
+          <section id="cart" class="section-p1">
+
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>REMOVE</td>
+                        <td>IMAGE</td>
+                        <td>PRODUCTS</td>
+                        <td>PRICE</td>
+                        <td>QUANTITY</td>
+                        <td>SUBTOTaL</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Metal Spring</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Intercooler Radiator Turbocharger</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Suspension Control Arm</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                </tbody>
+            </table>
+          </section>
+
+          <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3> Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotals</td>
+                        <td>$ 335</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 335</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+          
+          </section>
+      <!-- Footer Section -->
+      <footer class="footer">
+         
+          <div class="footer-container">
+              <!-- Contact Section -->
+              <div class="footer-section contact">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="Circular logo" class="logo-img" style="width: 70px; 
+                    height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                </div>
+                  <h3>Contact</h3>
+                  <p> <span style="font-weight:bold;">Address</span>: 562 Wellington Road, Street 32, San Francisco</p>
+                  <p><span style="font-weight:bold;">Phone</span>: +1 0222 365 (+91) 01 2345 6789</p>
+                  <p><span style="font-weight:bold;">Hours<span>: 10:00 - 18:00, Mon - Sat</p>
+                  <div class="social-icons">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-pinterest"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+              
+              <!-- About Section -->
+              <div class="footer-section about">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Delivery Information</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms & Conditions</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </div>
+              
+              <!-- My Account Section -->
+              <div class="footer-section account">
+                  <h3>My Account</h3>
+                  <ul>
+                      <li><a href="#">Sign In</a></li>
+                      <li><a href="#">View Cart</a></li>
+                      <li><a href="#">My Wishlist</a></li>
+                      <li><a href="#">Track My Order</a></li>
+                      <li><a href="#">Help</a></li>
+                  </ul>
+              </div>
+              
+              <!-- Install App Section -->
+              <div class="footer-section install">
+                  <h3>Install App</h3>
+                  <p>From App Store or Google Play</p>
+                  <div class="app-store-buttons">
+                      <a href="#"><img src="img/pay/app.jpg" alt="App Store"></a>
+                      <a href="#"><img src="img/pay/play.jpg" alt="Google Play"></a>
+                  </div>
+                  <p>Secured Payment Gateways</p>
+                  <img src="img/pay/pay.png" alt="Payment Methods" class="payment-methods">
+              </div>
+          </div>
+          
+          <div class="footer-bottom">
+              <p>&copy; 2024 Tech2 etc - HTML CSS Ecommerce Template</p>
+          </div>
+      </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
